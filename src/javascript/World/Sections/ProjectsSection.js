@@ -389,8 +389,8 @@ export default class ProjectsSection
             {
                 name: 'Sunshine',
                 imageSources: [
-                    './images/intern/sunshine2.png',
-                    './images/intern/sunshine3.png',
+                    './models/intern/sunshine2.png',
+                    './models/intern/sunshine3.png',
                 ],
                 floorTexture: this.resources.items.projectTakeawayFloorTexture,
                 link: {
@@ -407,8 +407,8 @@ export default class ProjectsSection
             {
                 name: 'Challenge',
                 imageSources: [
-                    './images/intern/conflict.png',
-                    './images/intern/confusion.png',
+                    './models/intern/conflict.png',
+                    './models/intern/confusion.png',
                 ],
                 floorTexture: this.resources.items.projectChallengeFloorTexture,
                 link: {
@@ -425,8 +425,8 @@ export default class ProjectsSection
             {
                 name: 'Skills',
                 imageSources: [
-                    './images/intern/database.png',
-                    './images/intern/teenager.png',
+                    './models/intern/database.png',
+                    './models/intern/teenager.png',
                 ],
                 floorTexture: this.resources.items.projectSkillFloorTexture,
                 link: {
@@ -443,7 +443,7 @@ export default class ProjectsSection
             {
                 name: 'Future',
                 imageSources: [
-                    './images/intern/future.png',
+                    './models/intern/future.png',
                 ],
                 floorTexture: this.resources.items.projectMoveOnFloorTexture,
                 link: {
@@ -460,7 +460,7 @@ export default class ProjectsSection
             {
                 name: 'Future',
                 imageSources: [
-                    './images/intern/finish-line.png',
+                    './models/intern/finish-line.png',
                 ],
                 floorTexture: this.resources.items.projectFinalFloorTexture,
                 link: {
