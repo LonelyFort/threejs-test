@@ -188,14 +188,14 @@ export default class Project
         }
 
         // Area
-        this.floor.area = this.areas.add({
-            position: new THREE.Vector2(this.x + this.link.x, this.y + this.floor.y + this.link.y),
-            halfExtents: new THREE.Vector2(this.link.halfExtents.x, this.link.halfExtents.y)
-        })
-        this.floor.area.on('interact', () =>
-        {
-            window.open(this.link.href, '_blank')
-        })
+        // this.floor.area = this.areas.add({
+        //     position: new THREE.Vector2(this.x + this.link.x, this.y + this.floor.y + this.link.y),
+        //     halfExtents: new THREE.Vector2(this.link.halfExtents.x, this.link.halfExtents.y)
+        // })
+        // this.floor.area.on('interact', () =>
+        // {
+        //     window.open(this.link.href, '_blank')
+        // })
 
         // Area label
         this.floor.areaLabel = this.meshes.areaLabel.clone()
@@ -204,6 +204,6 @@ export default class Project
         this.floor.areaLabel.position.z = 0.001
         this.floor.areaLabel.matrixAutoUpdate = false
         this.floor.areaLabel.updateMatrix()
-        this.floor.container.add(this.floor.areaLabel)
+        // this.floor.container.add(this.floor.areaLabel)
     }
 }

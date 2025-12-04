@@ -18,11 +18,11 @@ export default class InformationSection
         this.container = new THREE.Object3D()
         this.container.matrixAutoUpdate = false
 
-        this.setStatic()
-        this.setBaguettes()
-        this.setLinks()
-        this.setActivities()
-        this.setTiles()
+        // this.setStatic()
+        // this.setBaguettes()
+        // this.setLinks()
+        // this.setActivities()
+        // this.setTiles()
     }
 
     setStatic()

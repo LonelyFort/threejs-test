@@ -32,18 +32,18 @@ export default class ThreejsJourney
         this.setYesNo()
         this.setLog()
 
-        this.time.on('tick', () =>
-        {
-            if(this.world.physics)
-            {
-                this.traveledDistance += this.world.physics.car.forwardSpeed
+        // this.time.on('tick', () =>
+        // {
+        //     if(this.world.physics)
+        //     {
+        //         this.traveledDistance += this.world.physics.car.forwardSpeed
 
-                if(!this.config.touch && !this.shown && this.traveledDistance > this.minTraveledDistance)
-                {
-                    this.start()
-                }
-            }
-        })
+        //         if(!this.config.touch && !this.shown && this.traveledDistance > this.minTraveledDistance)
+        //         {
+        //             this.start()
+        //         }
+        //     }
+        // })
     }
 
     setYesNo()
